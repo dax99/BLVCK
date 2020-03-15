@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html ::-webkit-scrollbar-track {
+    background: white; }
+  html ::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 0px; }
+  html ::-webkit-scrollbar-thumb {
+    background: #0e0e0e;
+    border-radius: 0px; }
+    html ::-webkit-scrollbar-thumb:hover {
+      background: #000000; }
+html{
+    scroll-behavior: smooth;
+    ::selection {
+    color: rgb(255, 255, 255);
+    background-color: #000000;  
+    
+    }
+    background-color: #0e0e0e;
+    body{
+        background-color: #fff; 
+
+        .jumbotron{
+            background-image: url("../img/jumbotron.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+            color:#fff;
+        }
+        #dodajUKorpu{
+            box-sizing:border-box;
+        }
+
+        #kolicina{
+            box-sizing:border-box;
+        }
+        
+        .boxed  label {           
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            margin:7px;
+            border: solid 2px rgb(179, 179, 179);
+            transition: all 0.3s;
+          }
+          
+          .boxed input[type="radio"] {
+            display: none;
+           
+          }
+          
+          .boxed input[type="radio"]:checked + label {
+            background-color: #0e0e0e;
+            color:#fff;
+            
+          }
+          input[type=number]::-webkit-inner-spin-button, 
+          input[type=number]::-webkit-outer-spin-button {  
+      
+         opacity: 1;
+      
+        }
+    }
+    .about{
+        min-height: 400px;    
+    }
+    .crna{
+        background-color : #0e0e0e;
+        color: rgb(255, 255, 255);
+        
+    }
+    .carousel{
+        height: 100%;
+    }
+    .card{
+        width:17rem;
+    }
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+       }
+    .carousel-control-next-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    #kategorije{
+        min-height: 500px;
+    }
+    .izbor[data-id="1"]{
+        background-image: url("../img/all.jpg");
+        background-position: center;
+        // background-size: contain;
+         background-size: cover;
+         min-height:200px ;
+    }
+    .izbor[data-id="2"]{
+        background-image: url("../img/panther.png");
+        background-position: center;
+        background-size: cover;
+        min-height:200px ;
+    }
+    .izbor[data-id="3"]{
+        background-image: url("../img/backpack.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height:200px ;
+    }
+    .izbor[data-id="4"]{
+        background-image: url("../img/cap2.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height:200px ;
+    }
+    #shoppingCart{
+        color:rgb(0, 0, 0);
+        font-size: 2rem;
+    }   
+    .lista {
+        background-color: transparent;
+        border: none; 
+    }
+    footer{
+        background-color: #0e0e0e;
+        overflow: hidden;
+    }
+    .karta{
+        border:0;
+        width:400px
+    }
+
+   .about {
+       overflow: hidden;
+   }
+   #deskripcija{
+       box-sizing: border-box;
+       border-bottom: 1px solid #9b9b9b;
+       border-top: 1px solid #9b9b9b;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-bottom: 0px;
+   }
+   .borderr{
+       border-bottom: 3px solid #9b9b9b;
+   }
+   .mala-slika{
+       width: 130px;
+   }
+   .listaKat{
+       color:#000000;
+       text-decoration: none;
+   }
+   .greska{
+       border:1px solid red
+   }
+   .hide{
+       display:none;
+   }
+}
