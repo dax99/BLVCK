@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "categoryName":"See All",
+        "src":"assets/img/jumbotron.jpg"
+    },
+    {
+        "id":2,
+        "categoryName":"Clothing",
+        "src":"assets/img/jumbotron.jpg"
+    },
+    {
+        "id":3,
+        "categoryName":"Leather Goods",
+        "src":"assets/img/jumbotron.jpg"
+    },
+    {
+        "id":4,
+        "categoryName":"Accessories",
+        "src":"assets/img/jumbotron.jpg"
+    }
+]
